@@ -1,0 +1,6 @@
+name = input("Enter value of name ")
+print("The value of name is " , name)
+number = int(input("Enter value of number "))
+print("The value of number is ", number)
+number2 = float(input("Enter value of number 2 "))
+print("The value of number 2 is ",number2)
