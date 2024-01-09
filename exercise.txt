@@ -5,3 +5,4 @@ Write a programe to print following pattern
 
 Write a programe to count total number of odd and even numbers in the given list 
 
+https://i1.faceprep.in/fp/articles/img/55984_1580817324.png
