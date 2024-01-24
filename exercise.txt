@@ -10,4 +10,4 @@ https://i1.faceprep.in/fp/articles/img/55984_1580817324.png
 Write a programe to create roulete game 
 
 Write a programe to create a quiz game 
-{ 'what is your name' : 'param' }
+[{ 'what is your name' : 'param' }]
