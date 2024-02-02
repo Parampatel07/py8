@@ -2337,6 +2337,8 @@ while count < len(tr):
      td = tr[count].find_all('td')
      print(td[0].text +  " - " + td[1].text)
      count+=1
+
+     
 # td = tr[2].find_all('td')
 # print(td[0].text +  " - " + td[1].text)
 # td = tr[3].find_all('td')
