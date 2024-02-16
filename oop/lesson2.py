@@ -5,7 +5,7 @@ class Person:
       
      def walk(self):
           print("I can walk " + self.my_name )
-     
+          
      def talk(self):
           print("I can talk")
 
