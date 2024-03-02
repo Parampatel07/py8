@@ -10,13 +10,13 @@ class Vehicle():
 
 class Bike(Vehicle):
      def __init__(self,name):
-          self.name = name
-          Vehicle.__init__(self,self.name)
+          self.vehicle_name = name
+          Vehicle.__init__(self,name)
      def door(self):
-          print(f"{self.name} have no doors")
+          print(f"{self.vehicle_name} have no doors")
      
      def wheels(self):
-          print(f"{self.name} have 2 wheels")
+          print(f"{self.vehicle_name} have 2 wheels")
 
 class Car(Vehicle):
      def __init__(self,name):
