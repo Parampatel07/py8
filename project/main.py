@@ -1,5 +1,7 @@
+from delete_customer import deleteCustomer
 from add_customer import addCustomer
-
+from view_customer import viewCustomer
+from edit_customer import editCustomer
 print("Enter 1 to work with customers ")
 print("Enter 2 to work with bills ")
 print("Enter 3 to work with stock ")
@@ -20,12 +22,15 @@ if choice == 1 :
           # add customer 
      elif customer_choice == 2 :
           print()
+          deleteCustomer()
           # delete customer 
      elif customer_choice == 3 :
           print()
+          editCustomer()
           # edit customer 
      elif customer_choice == 4 :
           print()
+          viewCustomer()
           # view customer 
      else :
           print("Invalid Choice ")
