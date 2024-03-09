@@ -8,6 +8,12 @@ from add_stock import addStock
 from view_stock import viewStock
 from delete_stock import deleteStock
 from edit_stock import editStock
+from monthly_income import monthlyBill
+from weekly_income import weeklyBill
+from yearly_income import yearlyBill
+from daily_income import dailyBill
+from pending_bill import pendingBill
+
 print("Enter 1 to work with customers ")
 print("Enter 2 to work with bills ")
 print("Enter 3 to work with stock ")
@@ -84,6 +90,26 @@ elif choice == 3 :
           print("Invalid Choice ")
 elif choice == 4:
      # reports 
-     print("")
+     print("\n===============================================================\n")
+     print("Enter 1 to view Monthly income  ")
+     print("Enter 2 to view yearly income ")
+     print("Enter 3 to view weakly income ")
+     print("Enter 4 to view daily income  ")
+     print("Enter 5 to view pending bill ")
+     customer_choice = int(input("Select anyone option from above "))
+     if customer_choice == 1 :
+          monthlyBill()
+     elif customer_choice == 2 :
+          yearlyBill()
+     elif customer_choice == 3 :
+          weeklyBill()
+     elif customer_choice == 4 :
+          dailyBill()
+          # view stock 
+     elif customer_choice == 5 :
+          pendingBill()
+          # view stock 
+     else :
+          print("Invalid Choice ")
 else:
      print("Invalid Choice ")
